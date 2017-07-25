@@ -8,16 +8,23 @@
 " This line should not be removed as it ensures that various options are
 " properly set to work with the Vim-related packages available in Debian.
 runtime! debian.vim
+<<<<<<< HEAD
 
 " Uncomment the next line to make Vim more Vi-compatible
 " NOTE: debian.vim sets 'nocompatible'.  Setting 'compatible' changes numerous
 " options, so any other options should be set AFTER setting 'compatible'.
 "set compatible
+=======
+>>>>>>> e74597d9165197890191636737996f04c0555134
 "****************************************************
 " NOTE: debian.vim sets 'nocompatible'.  Setting 'compatible' changes numerous
 " options, so any other options should be set AFTER setting 'compatible'.
 "set compatible  
 "****************************************************
+<<<<<<< HEAD
+=======
+
+>>>>>>> e74597d9165197890191636737996f04c0555134
 " Vim5 and later versions support syntax highlighting. Uncommenting the next
 " line enables syntax highlighting by default.
 if has("syntax")
@@ -38,6 +45,7 @@ endif
 "  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 "endif
 
+<<<<<<< HEAD
 " Uncomment the following to have Vim load indentation rules and plugins
 " according to the detected filetype.
 "if has("autocmd")
@@ -54,6 +62,8 @@ endif
 "set autowrite		" Automatically save before commands like :next and :make
 "set hidden		" Hide buffers when they are abandoned
 "set mouse=a		" Enable mouse usage (all modes)
+=======
+>>>>>>> e74597d9165197890191636737996f04c0555134
 "****************************************************
 
 " Uncomment the following to have Vim load indentation rules and plugins
@@ -68,11 +78,19 @@ endif
 set rtp+=/etc/vim/Vundle.vim
 call vundle#begin()
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e74597d9165197890191636737996f04c0555134
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpop/vim-fugitive'
 Plugin 'git://git.wincent.com/command-t-git'
 Plugin 'vim-scripts/a.vim'
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e74597d9165197890191636737996f04c0555134
 "Color Schemes
 Plugin 'tomasr/molokai'  
 Plugin 'flazz/vim-colorshemes'
@@ -81,6 +99,11 @@ call vundle#end()
 filetype plugin indent on
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> e74597d9165197890191636737996f04c0555134
 " The following are commented out as they cause vim to behave a lot
 " differently from regular Vi. They are highly recommended though.
 set number		" Show numbers	
